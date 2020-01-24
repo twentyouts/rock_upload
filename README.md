@@ -15,3 +15,7 @@ link на подсказку как сделать на фронте забор 
 ## Тестовые отправки файла из терминала
 Для отправки файла из терминала  curl -F "data=@/home/twentyouts/Documents/new.txt" https://twenty.dg02.ru/rock_upload/main/
 
+## Curl команды для отправки запросов
+https://gist.github.com/subfuzion/08c5d85437d5d4f00e58
+
+
