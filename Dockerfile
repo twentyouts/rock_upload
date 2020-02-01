@@ -4,9 +4,12 @@ FROM python:3.6
 # create and set working directory
 RUN mkdir /app
 WORKDIR /app
+RUN mkdir /uploader/uploads
 
 # Add current directory code to working directory
 ADD . /app/
+
+
 
 # set default environment variables
 ENV PYTHONUNBUFFERED 1
